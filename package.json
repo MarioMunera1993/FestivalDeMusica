@@ -4,7 +4,7 @@
   "description": "aprendiendo sass y npm",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "sass --watch src/scss:dist/css"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,9 @@
     "Gulp"
   ],
   "author": "Mario Munera",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^5.0.1",
+    "sass": "^1.104.1"
+  }
 }
