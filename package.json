@@ -2,9 +2,11 @@
   "name": "festivalmusica",
   "version": "1.0.0",
   "description": "aprendiendo sass y npm",
+  "Type": "module",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch src/scss:dist/css"
+    "sass": "sass --watch src/scss:dist/css",
+    "dev": "gulp dev"
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,7 @@
   "license": "ISC",
   "devDependencies": {
     "gulp": "^5.0.1",
+    "gulp-sass": "^6.0.1",
     "sass": "^1.104.1"
   }
 }

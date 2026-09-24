@@ -1,12 +1,44 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="dist/css/app.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="build/css/app.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
     <title>Festival de Música</title>
 </head>
+
 <body>
-    <h1>Hola mundo</h1>
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <h1>Techno & EDM Festival</h1>
+
+            <nav class="navegacion-principal">
+                <a href="#">Lineup</a>
+                <a href="#">Galeria</a>
+                <a href="#">Boletos</a>
+            </nav>
+
+        </div>
+
+    </header>
+    <div class="video">
+        <div class="overlay">
+            <div class="contenedor contenido-video">
+                <h2>techno & EDM Festival</h2>
+                <p>Julio 2026, Medellin, Colombia</p>
+            </div>
+        </div>
+        <video autoplay muted loop>
+            <source src="video/dj.mp4" type="video/mp4"/>
+            <source src="video/dj.ogv" type="video/ogg"/>
+            <source src="video/dj.webm" type="video/webm"/>
+        </video>
+    </div>
 </body>
+
 </html>
