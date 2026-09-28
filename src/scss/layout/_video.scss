@@ -1,5 +1,6 @@
 @use 'base/variables' as v;
 @use 'base/mixins' as m;
+@use "sass:color";
 
 .video{
     position: relative;
@@ -12,7 +13,7 @@
         background: linear-gradient(
             270deg,
             rgba(v.$morado, 60%),
-            rgba(darken( v.$morado, 20%), 80%)
+            rgba(color.adjust(v.$morado, $lightness: -20%), 0.8)
         );
         inset: 0;
 
